@@ -1,4 +1,4 @@
-# [Planning-Algorithms] · [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# Planning-Algorithms · [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 _Planning-Algorithms_ is a collection of Algorithms used in planning.
 
 ## Table of Contents
@@ -15,7 +15,7 @@ _Planning-Algorithms_ is a collection of Algorithms used in planning.
 * **Path Finding**: A*, BFS, DFS, Dijkstra  
 * **Scheduling**: Nurse Scheduling Problem  
 * **SAT Solvers**: DPLL
-* **Intelligent Planning: ** STRIPS, Hierarchical Planning
+* **Intelligent Planning:** STRIPS, Hierarchical Planning
 
 ## Project Progress
 This project is in it's infancy, it is currently does not have very many algorithms in the library.

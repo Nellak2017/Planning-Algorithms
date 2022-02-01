@@ -1,41 +1,43 @@
 # Linear Programming
 
 ---
+
 ## Table of Contents
 
-- [[#Overview|Overview]]
-	- [[#Usage of Programs in Repository Overview|Usage of Programs in Repository Overview]]
-	- [[#Linear Programming Overview|Linear Programming Overview]]
-	- [[#The general form of Objective Criterion in a Linear programming problem|The general form of Objective Criterion in a Linear programming problem]]
-	- [[#The general form of Constraints in a Linear programming problem|The general form of Constraints in a Linear programming problem]]
-	- [[#Terms|Terms]]
-- [[#Linear Programming Problem Formulation|Linear Programming Problem Formulation]]
-	- [[#Computer Router Production Problem Example|Computer Router Production Problem Example]]
-		- [[#Computer Router Production Problem Example Statement|Computer Router Production Problem Example Statement]]
-		- [[#Computer Router Production Problem Example Formulation|Computer Router Production Problem Example Formulation]]
-			- [[#Objective Criterion|Objective Criterion]]
-			- [[#Constraints|Constraints]]
-				- [[#Materials Constraint|Materials Constraint]]
-				- [[#labor constraint|labor constraint]]
-	- [[#Space Agency Example|Space Agency Example]]
-		- [[#Space Agency Example Statement|Space Agency Example Statement]]
-		- [[#Space Agency Example Formulation|Space Agency Example Formulation]]
-			- [[#Objective Criterion|Objective Criterion]]
-			- [[#Constraints|Constraints]]
-				- [[#Available launches per Payload type|Available launches per Payload type]]
-				- [[#Successful deployment quota|Successful deployment quota]]
-				- [[#Launch Prep time|Launch Prep time]]
-	- [[#Minimizing Production and Inventory Example|Minimizing Production and Inventory Example]]
-		- [[#Minimizing Production and Inventory Statement|Minimizing Production and Inventory Statement]]
-		- [[#Minimizing Production and Inventory Formulation|Minimizing Production and Inventory Formulation]]
-			- [[#Objective Criterion|Objective Criterion]]
-			- [[#Constraints|Constraints]]
-				- [[#Minimum Inventory|Minimum Inventory]]
-				- [[#Production capacities and minima|Production capacities and minima]]
-- [[#Solving Linear Programming Problems with the Simplex Method|Solving Linear Programming Problems with the Simplex Method]]
-	- [[#Simplex Method Overview|Simplex Method Overview]]
-		- [[#Example of Simplex Tableau|Example of Simplex Tableau]]
-		- [[#Simplex Pseudo-Code|Simplex Pseudo-Code]]
+- [Linear Programming](#linear-programming)
+  * [Overview](#overview)
+    + [Usage of Programs in Repository Overview](#usage-of-programs-in-repository-overview)
+    + [Linear Programming Overview](#linear-programming-overview)
+    + [The general form of Objective Criterion in a Linear programming problem](#the-general-form-of-objective-criterion-in-a-linear-programming-problem)
+    + [The general form of Constraints in a Linear programming problem](#the-general-form-of-constraints-in-a-linear-programming-problem)
+    + [Terms](#terms)
+  * [Linear Programming Problem Formulation](#linear-programming-problem-formulation)
+    + [Computer Router Production Problem Example](#computer-router-production-problem-example)
+      - [Computer Router Production Problem Example Statement](#computer-router-production-problem-example-statement)
+      - [Computer Router Production Problem Example Formulation](#computer-router-production-problem-example-formulation)
+        * [Objective Criterion](#objective-criterion)
+        * [Constraints](#constraints)
+          + [Materials Constraint](#materials-constraint)
+          + [labor constraint](#labor-constraint)
+    + [Space Agency Example](#space-agency-example)
+      - [Space Agency Example Statement](#space-agency-example-statement)
+      - [Space Agency Example Formulation](#space-agency-example-formulation)
+        * [Objective Criterion](#objective-criterion-1)
+        * [Constraints](#constraints-1)
+          + [Available launches per Payload type](#available-launches-per-payload-type)
+          + [Successful deployment quota](#successful-deployment-quota)
+          + [Launch Prep time](#launch-prep-time)
+    + [Minimizing Production and Inventory Example](#minimizing-production-and-inventory-example)
+      - [Minimizing Production and Inventory Statement](#minimizing-production-and-inventory-statement)
+      - [Minimizing Production and Inventory Formulation](#minimizing-production-and-inventory-formulation)
+        * [Objective Criterion](#objective-criterion-2)
+        * [Constraints](#constraints-2)
+          + [Minimum Inventory](#minimum-inventory)
+          + [Production capacities and minima](#production-capacities-and-minima)
+  * [Solving Linear Programming Problems with the Simplex Method](#solving-linear-programming-problems-with-the-simplex-method)
+    + [Simplex Method Overview](#simplex-method-overview)
+      - [Example of Simplex Tableau](#example-of-simplex-tableau)
+      - [Simplex Pseudo-Code](#simplex-pseudo-code)
 
 ## Overview
 

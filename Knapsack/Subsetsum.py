@@ -13,7 +13,7 @@ Output:
     Array of numbers whose sum is closest to the target value
 '''
 
-import itertools;
+import itertools
 def subsetsum(array, target):
     absDiff = target
     bestCombo = []

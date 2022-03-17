@@ -13,7 +13,7 @@ Output:
     Array of numbers whose sum is closest to the target value
 '''
 
-import itertools;
+import itertools
 def subsetsum(array, target):
     absDiff = target
     bestCombo = []
@@ -81,4 +81,8 @@ amexCharges = [
     1133
 ]
 
+<<<<<<< HEAD
 '''
+=======
+print(subsetsum(amexCharges,targetPoints))
+>>>>>>> 3491d17b0fb46d5032f46506fc0047dece8fd82d
